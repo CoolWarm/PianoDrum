@@ -96,7 +96,7 @@ document.addEventListener("keydown", function(event) {
   triggerAnimation(event.key)
 });
 
-//彩蛋1
+//Egg1
 document.querySelector(".egg1").addEventListener("click", function() {
   var list = ['5', '2', '0', '1', '3', '1', '4'];
   var count = 0;
@@ -111,7 +111,7 @@ document.querySelector(".egg1").addEventListener("click", function() {
   }, 520);
 });
 
-//彩蛋2
+//Egg2
 document.querySelector(".egg2").addEventListener("click", function() {
   var list = ['w', 'q', 'q'];
   var count = 0;
